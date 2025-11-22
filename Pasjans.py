@@ -405,7 +405,7 @@ def Nazwa(): #Tytuł gry zapisany w formacie ANSI Shadow.
 def Zasady(): #Otwiera plik z zasdmi i je pokazuje.
     global INFORMACJA
     try:
-        with open("zasady.txt", "r", encoding="utf-8") as plik:
+        with open("zasady(rules).txt", "r", encoding="utf-8") as plik:
             zasady = plik.read()
             print(zasady)
     except FileNotFoundError:
