@@ -1,6 +1,7 @@
 # Python-Solitaire-Game
 
 How to Run (English Translation):
+## The game is not fully translated!
 
 Unpack the contents of the file 16-18_Python_Marcin_Radzewicz.rar to a location of your choice. The file should contain only a folder named 16-18_Python_Marcin_Radzewicz, which holds all the files. Please check that the files in the folder are working correctly (open them, check they are not empty, and close them without saving).
 
