@@ -1,0 +1,79 @@
+(Polish)
+==CEL GRY:==
+Uporządkuj wszystkie 52 karty na 4 stosach końcowych (po jednym dla każdego koloru: ♥ ♦ ♠ ♣) w kolejności od Asa (A) do Króla (K).
+
+==UKŁAD POCZĄTKOWY:==
+- 7 kolumn:
+  - Kolumny zawierają od 1 do 7 kart (pierwsza: 1 karta, ostatnia: 7 kart)
+  - Tylko ostatnia karta w każdej kolumnie jest odkryta
+- Stos rezerwowy (talia):
+  - Pozostałe karty (24) tworzą talię do dobierania
+  - Można dobierać karty: 1 naraz (poziom łatwy) lub 3 naraz (poziom trudny)
+  - Po wyczerpaniu talii karty są automatycznie przetasowywane i ponownie udostępniane
+
+==ZASADY RUCHÓW:==
+1. Przenoszenie między kolumnami:
+   - Można przenosić pojedyncze karty lub sekwencje kart ułożone:
+     * W kolejności malejącej (K→Q→J→...→A)
+     * Naprzemiennych kolorach (czerwony-czarny-czerwony...)
+   - Pustą kolumnę można wypełnić tylko Królem (K) lub sekwencją zaczynającą się od Króla
+
+2. Przenoszenie na stosy końcowe:
+   - Karty muszą trafiać rosnąco (A→2→3→...→K) w tym samym kolorze
+   - Nie można przenosić kart z powrotem ze stosów końcowych do kolumn
+
+3. Cofanie ruchów:
+   - Gracz może cofnąć do 3 ostatnich akcji
+   - Przetasowanie talii traktowane jest jako ruch i można je cofnąć
+
+==ZAKOŃCZENIE GRY:==
+- WYGRANA: wszystkie 52 karty ułożone na stosach końcowych
+- PRZEGRANA: brak możliwych ruchów
+
+==DODATKOWE UWAGI:==
+1. Kolejność kolorów w sekwencjach musi być naprzemienna, ale nie musi zachowywać sekwencji kolorów (np. po ♠ może być ♥ lub ♦)
+2. Na stosy końcowe karty muszą trafiać dokładnie w tej samej hierarchii kolorów (np. tylko ♠ na ♠)
+3. Przenoszenie sekwencji kart między kolumnami jest możliwe tylko wtedy, gdy cała sekwencja spełnia zasady malejącej kolejności i naprzemiennych kolorów
+
+
+
+(English)
+==GOAL OF THE GAME:==
+Arrange all 52 cards on the 4 final piles (one for each suit: ♥ ♦ ♠ ♣) in ascending order from Ace (A) to King (K).
+
+==INITIAL LAYOUT:==
+7 Columns:
+Columns contain from 1 to 7 cards (the first column has 1 card, the last has 7 cards).
+Only the last card in each column is face up (uncovered).
+
+Reserve Pile (Stock/Talon):
+The remaining cards (24) form the stock/talon for drawing.
+Cards can be drawn: 1 at a time (Easy level) or 3 at a time (Hard level).
+Once the stock is exhausted, the cards are automatically reshuffled and made available again.
+
+==RULES OF MOVES:==
+Moving between Columns:
+Single cards or sequences of cards may be moved.
+They must be arranged:
+In descending order (K→Q→J→...→A).
+In alternating colors (Red-Black-Red...).
+An empty column can only be filled with a King (K) or a sequence starting with a King.
+
+Moving to Final Piles (Foundations):
+Cards must be moved in ascending order (A→2→3→...→K) within the same suit.
+Cards cannot be moved back from the final piles to the columns.
+
+Undo Moves:
+The player can undo up to the last 3 actions.
+Reshuffling the stock is treated as a move and can be undone.
+
+==GAME END:==
+WIN: All 52 cards are arranged on the final piles.
+
+LOSS: No possible moves remaining.
+
+==ADDITIONAL NOTES:==
+
+The sequence of suits in columns must be alternating, but does not need to maintain a fixed color sequence (e.g., after ♠, you can place either ♥ or ♦).
+Cards must be moved to the final piles strictly within the same suit hierarchy (e.g., only ♠ on ♠).
+Moving a sequence of cards between columns is only possible if the entire sequence adheres to the rules of descending order and alternating colors.
